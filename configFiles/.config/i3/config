@@ -176,16 +176,16 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
         colors {
-                background #3f434f
+                background #3e424d
         }
 }
 
 # Custom
 set $bg-color            #e7e8eb
 set $inactive-bg-color   #e7e8eb
-set $text-color          #3f434f
-set $inactive-text-color #7e869e
-set $urgent-bg-color     #E53935
+set $text-color          #3e424d
+set $inactive-text-color #7c849a
+set $urgent-bg-color     #ef2929
 
 # Window colors
 #                       border              background         text                 indicator
