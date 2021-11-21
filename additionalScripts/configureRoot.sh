@@ -18,12 +18,6 @@ systemctl restart cups.service
 #i3
 cat configFiles/etc/i3status.conf > /etc/i3status.conf
 
-#intel-undervolt
-vim -i NONE /etc/intel-undervolt.conf
-intel-undervolt apply
-intel-undervolt read
-systemctl enable intel-undervolt.service
-
 #LightDM
 vim -i NONE /etc/lightdm/lightdm.conf
 systemctl enable lightdm.service
