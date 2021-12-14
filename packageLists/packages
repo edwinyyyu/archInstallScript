@@ -29,6 +29,7 @@ i3blocks
 i3status
 jdk-openjdk
 jfsutils
+krita
 libgxps
 libreoffice-fresh
 libspectre
@@ -53,11 +54,10 @@ pacman-contrib
 papirus-icon-theme
 pavucontrol
 picom
-pinta
+pipewire
+pipewire-alsa
+pipewire-pulse
 polkit-gnome
-pulseaudio
-pulseaudio-alsa
-pulseaudio-bluetooth
 redshift
 reflector
 reiserfsprogs

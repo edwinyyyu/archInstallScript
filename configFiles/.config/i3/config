@@ -77,7 +77,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+semicolon split h
+bindsym $mod+b split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -218,7 +218,7 @@ set $mode_system System (u) Log Out, (i) Restart, (o) Shut Down, (p) Suspend
 mode "$mode_system" {
     bindsym u exec --no-startup-id i3-msg exit, mode "default"
     bindsym i exec --no-startup-id systemctl reboot, mode "default"
-    bindsym o exec --no-startup-id systemctl poweroff -i, mode "default"
+    bindsym o exec --no-startup-id systemctl poweroff, mode "default"
     bindsym p exec --no-startup-id systemctl suspend, mode "default"  
     
     # back to normal: Enter or Escape
